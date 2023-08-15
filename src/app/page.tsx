@@ -1,10 +1,13 @@
+import Teambox from "../components/teambox"
+
 export default function Home() {
   return (
-    <main>
-      <div className="flex justify-center">
-        <h1>Home</h1>
-        <h2>Home</h2>
-        <h3>Home</h3>
+    <main className="flex min-h-screen flex-col items-center justify-between">
+      <div className="">
+        <span className="">Times da NBA</span>
+        <div>
+          <Teambox />
+        </div>
       </div>
     </main>
   )
